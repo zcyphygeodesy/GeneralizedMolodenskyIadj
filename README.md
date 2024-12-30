@@ -4,6 +4,7 @@ https://www.zcyphygeodesy.com/en/h-nd-151.html
     From the gravity anomaly or gravity disturbance (mGal) model grid, height anomaly model grid, ellipsoidal height grid of the boundary surface and ellipsoidal height grid of the reference equipotential surface (for Stokes boundary problem), calculate the Molodensky I corrections of the gravity anomalies or gravity disturbances on the non-equipotential boundary surface on the ground or outside the Earth, thereby converting the Molodensky boundary value problem into a Stokes problem.
     The boundary surface can be located at any altitude outside the geoid, and the shape of the boundary surface can be irregular.
     When the boundary surface is the ground surface and the reference equipotential surface is the geoid, the program calculates the classical Molodensky I (mGal).
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAg6_zltwYo2ZS0MjClDTjuCA.jpg)
 ## [Main program for test entrance]
     GeneralizedMolodenskyIadj.f90 
     Input parameters: knd - the type of the gravity field element to be corrected. Knd=0 for gravity anomaly, and knd=1 for gravity disturbance.
